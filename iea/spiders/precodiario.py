@@ -2,12 +2,12 @@
 import scrapy
 import pymongo
 from unidecode import unidecode
-#User: dbUSer
-#Senha: b4ZvOtiDCDo3ORsI
+#User: dbUser
+#Senha: 4Jcg6sQsHMGHd9TF
 
 
 
-client = pymongo.MongoClient("mongodb+srv://dbUSer:b4ZvOtiDCDo3ORsI@cluster0-cnzzj.azure.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://dbUser:4Jcg6sQsHMGHd9TF@cluster0-074iv.gcp.mongodb.net/test?retryWrites=true&w=majority")
 #client = pymongo.MongoClient('mongodb://127.0.0.1:27017')
 
 db = client['dbCotacoes'] #criando banco
